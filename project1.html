@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <a href="#about"><button>About</button></a>
+    <a href="#skills"><button>Skills</button></a>
+    <a href="#projects"><button>Projects</button></a>
+    <a href="#contact"><button>Contact</button></a>
+</header>
+
+<main>
+    <!-- About Section -->
+    <section id="about">
+        <h1>Jhansi</h1>
+        <p>I am a passionate web developer with a focus on front-end technologies.</p>
+        <p>I am currently pursuing <em>BCA at Aditya Degree College, Gajuwaka</em>.</p>
+        <p>I have learned web development from Code With Jhansi.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>My Skills</h1>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+        </ol>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>My Projects</h1>
+        <table border="1">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>A personal portfolio website to showcase my projects and skills.</td>
+                <td><a href="#">View Project</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch with me using the form below:</p>
+
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <h3>Choose Gender</h3>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <h3>Hobbies</h3>
+            <input type="checkbox" id="coding" name="hobby" value="coding">
+            <label for="coding">Coding</label><br>
+
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">Reading</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
